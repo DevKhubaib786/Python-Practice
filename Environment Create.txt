@@ -1,0 +1,7 @@
+ conda create -n first_env python=3.10 
+conda create -n first_env python=3.10
+conda activate first_env
+conda deactivate
+conda info -e
+conda remove --name first_env --all
+code .
